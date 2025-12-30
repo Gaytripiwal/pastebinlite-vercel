@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -33,4 +33,31 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details. -->
+# Pastebin-Lite
+
+A simple Pastebin-like application built with Next.js that allows users to create text pastes with optional constraints (time-based expiry and view-count limits).
+
+## Features
+
+- Create text pastes with optional constraints
+- Time-based expiry (TTL)
+- View-count limits
+- Shareable URLs
+- Secure content rendering (XSS protection)
+- Health check endpoint
+- RESTful API
+- Responsive UI
+
+## Prerequisites
+
+- Node.js 16.8 or later
+- Redis instance (Upstash, Redis Labs, or local Redis)
+- npm or yarn
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd pastebin-lite
