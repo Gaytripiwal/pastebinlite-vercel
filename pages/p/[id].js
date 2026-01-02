@@ -19,7 +19,7 @@ export default function PastePage() {
     const fetchPaste = async () => {
       try {
         setLoading(true);
-        const res = await fetch(`https://pastebinlite-vercel-production.up.railway.app/api/paste?id=${pasteId}`);
+        const res = await fetch(`https://pastebinlite-vercel-production.up.railway.app/api/paste/${pasteId}`);
 
         if (!res.ok) {
           throw new Error("Paste not found or unavailable");
