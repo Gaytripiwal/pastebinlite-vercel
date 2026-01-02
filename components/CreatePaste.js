@@ -19,7 +19,7 @@ export default function CreatePaste({ onPasteCreated }) {
     };
 
     try {
-      const response = await fetch('/api/pastes', {
+      const response = await fetch('https://pastebinlite-vercel-production.up.railway.app/api/paste', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
